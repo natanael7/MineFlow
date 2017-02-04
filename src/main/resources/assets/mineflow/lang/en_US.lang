@@ -1,0 +1,15 @@
+#English US language for MineFlow Mod
+
+
+#CreativeTabs
+itemGroup.mineflow_main=MineFlow
+
+
+#Items
+item.emerald_pickaxe.name=Emerald Pickaxe
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_ingot.name=Copper Ingot
+
+
+#Blocks
+tile.copper_ore.name=Copper Ore

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mineflow",
+  "name": "MineFlow",
+  "description": "Alpha mining mod project",
+  "version": "0.1-alpha",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nanter"],
+  "credits": "The Forge and FML guys, for making this api",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
