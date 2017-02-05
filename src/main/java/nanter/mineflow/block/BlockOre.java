@@ -2,6 +2,7 @@ package nanter.mineflow.block;
 
 
 import nanter.mineflow.MineFlow;
+import nanter.mineflow.item.properties.HarvestLevel;
 import nanter.mineflow.oredict.OreDict;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -17,6 +18,8 @@ import net.minecraftforge.oredict.OreDictionary;
 import java.util.List;
 
 public class BlockOre extends Block implements OreDict {
+    public static final String DEFAULT_TOOLCLASS = "pickaxe";
+
     private String name;
     private String oreName;
     private ItemBlock itemBlock;
@@ -35,7 +38,7 @@ public class BlockOre extends Block implements OreDict {
 
         setHardness(3.0F);
         setResistance(5.0F);
-        setHarvestLevel("pickaxe", 1); //Stone level
+        setHarvestLevel(DEFAULT_TOOLCLASS, HarvestLevel.STONE);
     }
 
     public void registerModel(){
@@ -83,4 +86,8 @@ public class BlockOre extends Block implements OreDict {
         return this;
     }
 
+    public BlockOre setHarvestLevel(int level) {
+        super.setHarvestLevel(DEFAULT_TOOLCLASS, level);
+        return this;
+    }
 }

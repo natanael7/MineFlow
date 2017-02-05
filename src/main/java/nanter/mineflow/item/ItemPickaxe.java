@@ -28,4 +28,5 @@ public class ItemPickaxe extends net.minecraft.item.ItemPickaxe{
         super.setCreativeTab(tab);
         return this;
     }
+
 }

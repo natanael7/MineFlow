@@ -43,4 +43,5 @@ public class ItemIngot extends Item implements OreDict{
     public String getOreName() {
         return this.oreName;
     }
+
 }

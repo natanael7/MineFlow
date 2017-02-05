@@ -3,7 +3,7 @@ package nanter.mineflow.init;
 
 import nanter.mineflow.item.ItemIngot;
 import nanter.mineflow.item.ItemPickaxe;
-import nanter.mineflow.item.ToolMaterial;
+import nanter.mineflow.item.properties.ToolMaterial;
 
 public class ModItems {
 

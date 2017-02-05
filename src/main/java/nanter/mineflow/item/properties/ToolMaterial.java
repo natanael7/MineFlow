@@ -1,4 +1,4 @@
-package nanter.mineflow.item;
+package nanter.mineflow.item.properties;
 
 
 import net.minecraft.item.Item;
@@ -19,7 +19,7 @@ public class ToolMaterial {
     */
 
     static {
-        EMERALD = EnumHelper.addToolMaterial("EMERALD", 3, 2515, 6.0F, 4.0F, 16);
-        COPPER = EnumHelper.addToolMaterial("COPPER", 2, 340, 5.0F, 2.0F, 18);
+        EMERALD = EnumHelper.addToolMaterial("EMERALD", HarvestLevel.DIAMOND, 2515, 6.0F, 4.0F, 16);
+        COPPER = EnumHelper.addToolMaterial("COPPER", HarvestLevel.IRON, 340, 5.0F, 2.0F, 18);
     }
 }
