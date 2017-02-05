@@ -1,0 +1,34 @@
+# Portuguese BR language for MineFlow Mod ---------------------------------------------------------------------------------
+
+
+#---------------------------------------------------- CreativeTabs -----------------------------------------------------
+itemGroup.mineflow_main=MineFlow
+
+
+#-------------------------------------------------------- Items --------------------------------------------------------
+item.copper_ingot.name=Barra de Cobre
+
+item.copper_axe.name=Machado de Cobre
+item.copper_hoe.name=Enxada de Cobre
+item.copper_pickaxe.name=Picareta de Cobre
+item.copper_shovel.name=Pá de Cobre
+item.copper_sword.name=Espada de Cobre
+item.copper_helmet.name=Capacete de Cobre
+item.copper_chestplate.name=Peitoral de Cobre
+item.copper_leggings.name=Calça de Cobre
+item.copper_boots.name=Botas de Cobre
+
+item.emerald_axe.name=Machado de Esmeralda
+item.emerald_hoe.name=Enxada de Esmeralda
+item.emerald_pickaxe.name=Picareta de Esmeralda
+item.emerald_shovel.name=Pá de Esmeralda
+item.emerald_sword.name=Espada de Esmeralda
+item.emerald_helmet.name=Capacete de Esmeralda
+item.emerald_chestplate.name=Peitoral de Esmeralda
+item.emerald_leggings.name=Calça de Esmeralda
+item.emerald_boots.name=Botas de Esmeralda
+
+
+
+#------------------------------------------------------- Blocks --------------------------------------------------------
+tile.copper_ore.name=Minério de Cobre

@@ -4,10 +4,9 @@ package nanter.mineflow.item.properties;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 
-public class ToolMaterial {
+import java.security.InvalidParameterException;
 
-    public static final Item.ToolMaterial EMERALD;
-    public static final Item.ToolMaterial COPPER;
+public class ToolMaterial {
 
     //-- vanilla defaults
     /*
@@ -18,8 +17,36 @@ public class ToolMaterial {
     GOLD(0, 32, 12.0F, 0.0F, 22);
     */
 
-    static {
-        EMERALD = EnumHelper.addToolMaterial("EMERALD", HarvestLevel.DIAMOND, 2515, 6.0F, 4.0F, 16);
-        COPPER = EnumHelper.addToolMaterial("COPPER", HarvestLevel.IRON, 340, 5.0F, 2.0F, 18);
+    public static final Item.ToolMaterial EMERALD = EnumHelper.addToolMaterial("EMERALD", HarvestLevel.DIAMOND, 2515, 6.0F, 4.0F, 16);
+    public static final Item.ToolMaterial COPPER = EnumHelper.addToolMaterial("COPPER", HarvestLevel.IRON, 340, 5.0F, 2.0F, 18);
+
+
+
+    public static float getAttackSpeedForAxe(Item.ToolMaterial toolMaterial) {
+        //custom's
+        if (toolMaterial == ToolMaterial.EMERALD) return -2.9F;
+        if (toolMaterial == ToolMaterial.COPPER)return -3.1F;
+        //vanilla's
+        if (toolMaterial == Item.ToolMaterial.WOOD) return -3.2F;
+        if (toolMaterial == Item.ToolMaterial.STONE) return -3.2F;
+        if (toolMaterial == Item.ToolMaterial.IRON) return -3.1F;
+        if (toolMaterial == Item.ToolMaterial.DIAMOND) return -3.0F;
+        if (toolMaterial == Item.ToolMaterial.GOLD) return -3.0F;
+        //default
+        throw new InvalidParameterException("Not found 'attackSpeed' for the specified 'toolMaterial'");
+    }
+
+    public static float getAttackDamageForAxe(Item.ToolMaterial toolMaterial) {
+        //custom's
+        if (toolMaterial == ToolMaterial.EMERALD) return 9.0F;
+        if (toolMaterial == ToolMaterial.COPPER)return 8.0F;
+        //vanilla's
+        if (toolMaterial == Item.ToolMaterial.WOOD) return 6.0F;
+        if (toolMaterial == Item.ToolMaterial.STONE) return 8.0F;
+        if (toolMaterial == Item.ToolMaterial.IRON) return 8.0F;
+        if (toolMaterial == Item.ToolMaterial.DIAMOND) return 8.0F;
+        if (toolMaterial == Item.ToolMaterial.GOLD) return 6.0F;
+        //default
+        throw new InvalidParameterException("Not found 'attackDamage' for the specified 'toolMaterial'");
     }
 }

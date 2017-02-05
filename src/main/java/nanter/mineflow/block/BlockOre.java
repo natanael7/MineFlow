@@ -18,7 +18,7 @@ import net.minecraftforge.oredict.OreDictionary;
 import java.util.List;
 
 public class BlockOre extends Block implements OreDict {
-    public static final String DEFAULT_TOOLCLASS = "pickaxe";
+    private static final String DEFAULT_TOOLCLASS = "pickaxe";
 
     private String name;
     private String oreName;
@@ -65,7 +65,7 @@ public class BlockOre extends Block implements OreDict {
     }
 
     @Override
-    public String getOreName() {
+    public String getOreDict() {
         return this.oreName;
     }
 

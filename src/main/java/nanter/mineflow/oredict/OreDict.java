@@ -5,6 +5,6 @@ public interface OreDict {
 
     OreDict registerOreDict(String oreName);
 
-    String getOreName();
+    String getOreDict();
 
 }

@@ -1,20 +1,17 @@
 package nanter.mineflow.item;
 
+
 import nanter.mineflow.MineFlow;
-import nanter.mineflow.oredict.OreDict;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.oredict.OreDictionary;
 
-public class ItemIngot extends Item implements OreDict{
+public class ItemHoe extends net.minecraft.item.ItemHoe {
     private String name;
-    private String oreName;
 
-    public ItemIngot(String name) {
-        super();
+    public ItemHoe(String name, ToolMaterial material) {
+        super(material);
         this.name = name;
         setUnlocalizedName(name);
         setRegistryName(name);
@@ -27,21 +24,8 @@ public class ItemIngot extends Item implements OreDict{
     }
 
     @Override
-    public ItemIngot setCreativeTab(CreativeTabs tab) {
+    public ItemHoe setCreativeTab(CreativeTabs tab) {
         super.setCreativeTab(tab);
         return this;
     }
-
-    @Override
-    public ItemIngot registerOreDict(String oreName) {
-        this.oreName = oreName;
-        OreDictionary.registerOre(oreName, this);
-        return this;
-    }
-
-    @Override
-    public String getOreDict() {
-        return this.oreName;
-    }
-
 }

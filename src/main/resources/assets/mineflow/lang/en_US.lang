@@ -1,15 +1,34 @@
-#English US language for MineFlow Mod
+# English US language for MineFlow Mod ---------------------------------------------------------------------------------
 
 
-#CreativeTabs
+#---------------------------------------------------- CreativeTabs -----------------------------------------------------
 itemGroup.mineflow_main=MineFlow
 
 
-#Items
-item.emerald_pickaxe.name=Emerald Pickaxe
-item.copper_pickaxe.name=Copper Pickaxe
+#-------------------------------------------------------- Items --------------------------------------------------------
 item.copper_ingot.name=Copper Ingot
 
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_shovel.name=Copper Shovel
+item.copper_sword.name=Copper Sword
+item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Chestplate
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
 
-#Blocks
+item.emerald_axe.name=Emerald Axe
+item.emerald_hoe.name=Emerald Hoe
+item.emerald_pickaxe.name=Emerald Pickaxe
+item.emerald_shovel.name=Emerald Shovel
+item.emerald_sword.name=Emerald Sword
+item.emerald_helmet.name=Emerald Helmet
+item.emerald_chestplate.name=Emerald Chestplate
+item.emerald_leggings.name=Emerald Leggings
+item.emerald_boots.name=Emerald Boots
+
+
+
+#------------------------------------------------------- Blocks --------------------------------------------------------
 tile.copper_ore.name=Copper Ore
