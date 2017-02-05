@@ -11,11 +11,12 @@ public class CommonProxy {
     public void preInit(){
         ModItems.init();
         ModBlocks.init();
-        ModWorldGen.init();
+
     }
 
     public void init(){
         ModRecipes.init();
+        ModWorldGen.init();
     }
 
     public void postInit(){
