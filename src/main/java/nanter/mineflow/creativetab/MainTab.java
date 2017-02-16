@@ -8,7 +8,7 @@ public class MainTab extends CreativeTabs {
 
     public MainTab(String label) {
         super(label);
-        setBackgroundImageName(label + ".png"); //the file name should be "tab_mineflow_main.png"
+        //setBackgroundImageName(label + ".png"); //the file name should be "tab_mineflow_main.png"
     }
 
     @Override
@@ -18,7 +18,7 @@ public class MainTab extends CreativeTabs {
 
     @Override
     public boolean hasSearchBar() {
-        return true;
+        return false;
     }
 
 }
