@@ -1,5 +1,5 @@
 #MineFlow
-###Forge mod for Minecraft
+###Forge mod for Minecraft 1.10.2
 
 ...in initial development process
 
@@ -7,4 +7,6 @@
 
 <img src="https://raw.githubusercontent.com/natanael7/MineFlow/master/assets/images/status1.png" width="350">
 
-The mod can be tested by copying the mod-file from `jar/` to your `.minecraft/mod` folder.
+---
+
+The mod can be tested by copying the file `jar/mineflow-0.1-alpha-mc1.10.2.jar` to your `.minecraft/mods` folder.
