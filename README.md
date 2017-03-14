@@ -5,7 +5,7 @@
 
 *current status:*  
 
-<img src="https://raw.githubusercontent.com/natanael7/MineFlow/master/assets/images/status1.png" width="350">
+<img src="https://raw.githubusercontent.com/natanael7/gh-assets/master/MineFlow/status1.png" width="350">
 
 ---
 
